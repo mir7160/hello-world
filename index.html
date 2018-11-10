@@ -8,9 +8,21 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 <!--Stylesheet-->   
     <link rel="stylesheet" type="text/css" href="style.css">
+<!--Animate CSS-->
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">    
+<link href="https://fonts.googleapis.com/css?family=Courgette|Secular+One" rel="stylesheet"> 
 </head>
 
 <body>
+<!--WOW.js-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+ <script>
+  new WOW().init();
+ </script>
+ <!--JQuery-->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <!--Javascript -->
 
 
     <!--NAVIGATION-->
@@ -42,26 +54,22 @@
 
 
 
-    <!--- Header -->
-
-    <div id="header" class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <h1>Responsive Web Design</h1>
-                    <p>Lorem Ipsum </p>
-                    <button class="btn btn-lg btn-primary">Buy Now</button>
-                    <button class="btn btn-lg btn-success">View Detail</button>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <img src="https://raw.githubusercontent.com/hasratsabit/landing-page/master/images/Responsive-Web-Design.png">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- End Header -->
-
+ <!--Header -->
+ <div class="header" id="header">
+  <div class="slideshow-container">
+   <div class="myimages">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUoLqnjVE0qamOzxj666ogoEjz1CIOGMNgg7afZQY2iReQpbSG">
+   </div>
+   <div class="myimages">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5DPm4XJ2xNMQNFV_mKS_TlpoNcoCdy73aKEq0idjnAQ0pRKNt">
+   </div>
+   <div class="myimages">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKhkMxk-NPK5tmywmSoH0wdf7CToKwnp1P6ACR7kpYQNueIHHEcQ">
+   </div>
+  </div>
+ </div>
+ <!--End Header-->
+ 
     <!--About Us-->
     <div id="about" class="about">
         <div class="container">
@@ -215,27 +223,76 @@
                         </div>
                         
 <!--Footer-->
-<div id="footer" class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4">
-                <h4>Contact</h4>
-                <p><i class="fa fa-home" aria-hidden="true"></i> 1234 Blank St, City, 11234</p>
-                <p><i class="fa fa-envelope" aria-hidden="true"></i> hello@comapny.com</p>
-                <p><i class="fa fa-phone" aria-hidden="true"></i> (718)-123-1234</p>
-                <p><i class="fa fa-globe" aria-hidden="true"></i> wwww.company.com</p>
-            </div>
-            
-            <div class="col-lg-4 col-md-4">
-                
-            </div>
-            
-            <div class="col-lg-4 col-md-4">
-                
-            </div>
-        </div>
+ <div id="footer" class="footer">
+  <div class="container">
+   <div class="row">
+    <div class="col-lg-4 col-md-4">
+     <h4>Extra Information</h4>
+     <p><i class="fa fa-home"></i> 5800 20th Avenue</p>
+     <p><i class="fa fa-envelope"></i> hello@company.org</p>
+     <p><i class="fa fa-phone"></i> (917)795-5948</p>
+     <p><i class="fa fa-globe"></i> www.pupilpath.com</p>
     </div>
-</div>
+    <div class="col-lg-4 col-md-4">
+     <h4>About Us</h4>
+     <p>Privacy</p>
+     <p>Terms and Conditions</p>
+    </div>
+    <div class="col-lg-4 col-md-4">
+     <h4>Social Media</h4>
+     <p>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin"></i>
+     </p>
+     <input type="text" class="form-control" placeholder="Email Address" aria-label="" arisdescribedby="basic-addon1">
+     <div class="input-group-append">
+      <button class="btn btn-primary" type="button">Subscribe</button>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!--End Footer-->
+
+ <hr>
+
+ <!--Get Involved-->
+ <div id="getinvolved" class="getinvolved">
+  <div class="container">
+   <h2>Get Involved</h2>
+   <div class="row">
+    <div class="col-lg-4 col-md-4 wow flipInY" data-wow-delay="0.4s">
+     <div class="options">
+      <i class="fas fa-globe-americas" aria-hidden="true"></i>
+      <h3>Explore</h3>
+      <p>Explore the world of Lorem Ipsum</p>
+      <button class="btn btn-success">Visit</button>
+     </div>
+    </div>
+    <div class="col-lg-4 col-md-4 wow flipInY" data-wow-delay="0.8s">
+     <div class="options">
+      <i class="fas fa-hands-helping" aria-hidden="true"></i>
+      <h3>Volunteer</h3>
+      <p>Join our community and help out!</p>
+      <button class="btn btn-success">Sign Up</button>
+     </div>
+    </div>
+    <div class="col-lg-4 col-md-4 wow flipInY" data-wow-delay="1.2s">
+     <div class="options">
+      <i class="fas fa-hand-holding-usd" aria-hidden="true"></i>
+      <h3>Give</h3>
+      <p>Donate to our charities</p>
+      <button class="btn btn-success">Donate</button>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!--End Get Involved-->
+
+ <script type="text/javascript" src="javascript.js"></script>
+
 </body>
 
 </html>
